@@ -8,6 +8,7 @@ npm i
 $ start application
 npm start
 ```
+---
 
 `todo`
 - [ ] fix bug with gfm
