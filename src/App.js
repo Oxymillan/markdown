@@ -9,7 +9,9 @@ function App() {
   const [markdown, setMarkdown] = useState("## markdown preview");
   return (
     <div>
-      <NavigationBar />
+    <a id='markdown' href="/#markdown">
+    <NavigationBar />
+    </a>
       <main>
         <section className="markdown">
           <textarea
@@ -21,7 +23,8 @@ function App() {
             <ReactMarkdown>{markdown}</ReactMarkdown>
           </article>
         </section>
-          <a id='syntax'><MarkdownSyntax /></a>
+          <a id='syntax' href="/#syntax"> </a>
+          <MarkdownSyntax />
       </main>
     </div>
   );

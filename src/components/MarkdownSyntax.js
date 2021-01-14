@@ -133,7 +133,9 @@ const MarkdownSyntax = (props) => {
             <td>
               <code>
                 ```
+                </code>
                 <br />
+                <code>{"{"}</code>
                 <br />
                 &nbsp;&nbsp;"firstName": "John",
                 <br />
@@ -141,7 +143,9 @@ const MarkdownSyntax = (props) => {
                 <br />
                 &nbsp;&nbsp;"age": 25
                 <br />
+                <code>{"}"}</code>
                 <br />
+                <code>
                 ```
               </code>
             </td>

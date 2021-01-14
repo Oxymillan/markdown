@@ -112,8 +112,20 @@ th,
 td {
   padding: 15px;
 }
-nav {
+.ant-anchor {
+  z-index: 1;
   display: flex;
+  justify-content: flex-start;
+  background-color: var(--clr-grey-10);
+  color: var(--dark-shadow);
+  width: 100vw;
+  line-height: 30px;
+  height: 30px;
+  margin: auto;
+  text-align: center;
+}
+.ant-anchor-link-title{
+  padding: 1rem;
 }
 @media screen and (min-width: 800px) {
   h1 {
@@ -207,6 +219,6 @@ pre {
   display: inline-block;
   border-radius: var(--radius);
   padding: 1rem 2rem;
-  color: inherit;
+  color: var(--clr-red-light);
   margin-bottom: 1.5rem;
 }
