@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import ReactMarkdown from "react-markdown";
 import MarkdownSyntax from "./components/MarkdownSyntax";
 import NavigationBar from "./components/NavigationBar";
-import "bootstrap/dist/css/bootstrap.css";
 
 // import  gfm from 'remark-gfm'
 

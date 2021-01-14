@@ -207,6 +207,6 @@ pre {
   display: inline-block;
   border-radius: var(--radius);
   padding: 1rem 2rem;
-  color: yellow;
+  color: inherit;
   margin-bottom: 1.5rem;
 }

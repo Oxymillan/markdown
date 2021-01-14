@@ -8,6 +8,7 @@ import {
   NavItem,
   NavLink
 } from "reactstrap";
+import "bootstrap/dist/css/bootstrap.css";
 
 const NavigationBar = (props) => {
   const [collapsed, setCollapsed] = useState(true);
